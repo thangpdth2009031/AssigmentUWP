@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="AssigmentPhamDucThangT2009M1.Pages.Profile"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AssigmentPhamDucThangT2009M1.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <TextBlock Text="Email" FontWeight="Bold" Width="100"/>
+            <TextBlock x:ConnectionId='4' Text="" x:Name="Email"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <TextBlock Text="Full Name" FontWeight="Bold" Width="100"/>
+            <TextBlock x:ConnectionId='3' Text="" x:Name="FullName"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <HyperlinkButton x:ConnectionId='2'                               Content="Đăng xuất"/>
+        </StackPanel>
+    </StackPanel>
+</Page>
+
