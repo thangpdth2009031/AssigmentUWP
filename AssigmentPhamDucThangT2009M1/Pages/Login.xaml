@@ -25,7 +25,7 @@
                 <PasswordBox x:Name="txtPassword" Header="Password" Margin="0 0 0 30"/>
                 <Button Width="400" Click="Button_Click" Content="Login"/>
             </StackPanel>
-            <HyperlinkButton Click="HyperlinkButton_Click" Margin="25 0 0 0" 
+            <HyperlinkButton Click="HyperlinkButton_Click" Margin="2 0 0 0" 
                          HorizontalAlignment="Left" Content="If you don't have an account, click here to register."/>
         </StackPanel>
     </Grid>
